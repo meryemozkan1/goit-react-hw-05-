@@ -1,0 +1,39 @@
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.input {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #3498db;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
